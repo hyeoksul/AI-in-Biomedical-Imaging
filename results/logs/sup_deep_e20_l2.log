@@ -1,0 +1,21 @@
+[sup_deep_e20_l2] epoch 1/20  train=1.2475  val=0.9642
+[sup_deep_e20_l2] epoch 2/20  train=0.4023  val=0.4907
+[sup_deep_e20_l2] epoch 3/20  train=0.3150  val=0.4123
+[sup_deep_e20_l2] epoch 4/20  train=0.2769  val=0.3310
+[sup_deep_e20_l2] epoch 5/20  train=0.2535  val=0.3253
+[sup_deep_e20_l2] epoch 6/20  train=0.2298  val=0.3010
+[sup_deep_e20_l2] epoch 7/20  train=0.2118  val=0.3770
+[sup_deep_e20_l2] epoch 8/20  train=0.1956  val=0.2185
+[sup_deep_e20_l2] epoch 9/20  train=0.1827  val=0.2979
+[sup_deep_e20_l2] epoch 10/20  train=0.1702  val=0.1995
+[sup_deep_e20_l2] epoch 11/20  train=0.1580  val=0.1896
+[sup_deep_e20_l2] epoch 12/20  train=0.1474  val=0.2201
+[sup_deep_e20_l2] epoch 13/20  train=0.1392  val=0.1890
+[sup_deep_e20_l2] epoch 14/20  train=0.1324  val=0.1868
+[sup_deep_e20_l2] epoch 15/20  train=0.1257  val=0.2320
+[sup_deep_e20_l2] epoch 16/20  train=0.1185  val=0.1643
+[sup_deep_e20_l2] epoch 17/20  train=0.1138  val=0.1590
+[sup_deep_e20_l2] epoch 18/20  train=0.1087  val=0.1614
+[sup_deep_e20_l2] epoch 19/20  train=0.1038  val=0.1746
+[sup_deep_e20_l2] epoch 20/20  train=0.1009  val=0.1690
+done. best val loss = 0.1590. saved to results\supervised\sup_deep_e20_l2

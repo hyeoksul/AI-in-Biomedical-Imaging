@@ -1,0 +1,4 @@
+supervised @ 2.0mm: PSNR=17.470  SSIM=0.205
+selfsupervised @ 2.0mm: PSNR=18.708  SSIM=0.211
+supervised @ 25.0mm: PSNR=17.377  SSIM=0.157
+selfsupervised @ 25.0mm: PSNR=19.832  SSIM=0.260

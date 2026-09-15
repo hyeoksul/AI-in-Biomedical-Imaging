@@ -1,0 +1,34 @@
+[depth_5_20] epoch 1/30  train_mse=66.9108
+[depth_5_20] epoch 2/30  train_mse=22.0525
+[depth_5_20] epoch 3/30  train_mse=20.1048
+[depth_5_20] epoch 4/30  train_mse=19.8607
+[depth_5_20] epoch 5/30  train_mse=18.4702
+[depth_5_20] epoch 6/30  train_mse=19.2227
+[depth_5_20] epoch 7/30  train_mse=19.0730
+[depth_5_20] epoch 8/30  train_mse=18.0445
+[depth_5_20] epoch 9/30  train_mse=18.3117
+[depth_5_20] epoch 10/30  train_mse=17.5338
+[depth_5_20] epoch 11/30  train_mse=18.0368
+[depth_5_20] epoch 12/30  train_mse=17.2051
+[depth_5_20] epoch 13/30  train_mse=17.8499
+[depth_5_20] epoch 14/30  train_mse=16.2863
+[depth_5_20] epoch 15/30  train_mse=17.5633
+[depth_5_20] epoch 16/30  train_mse=17.7844
+[depth_5_20] epoch 17/30  train_mse=17.7644
+[depth_5_20] epoch 18/30  train_mse=16.2756
+[depth_5_20] epoch 19/30  train_mse=16.9640
+[depth_5_20] epoch 20/30  train_mse=16.9942
+[depth_5_20] epoch 21/30  train_mse=16.3694
+[depth_5_20] epoch 22/30  train_mse=16.8458
+[depth_5_20] epoch 23/30  train_mse=15.8909
+[depth_5_20] epoch 24/30  train_mse=15.7384
+[depth_5_20] epoch 25/30  train_mse=16.0308
+[depth_5_20] epoch 26/30  train_mse=16.5581
+[depth_5_20] epoch 27/30  train_mse=16.1933
+[depth_5_20] epoch 28/30  train_mse=15.5282
+[depth_5_20] epoch 29/30  train_mse=15.3957
+[depth_5_20] epoch 30/30  train_mse=15.8074
+  5mm -> MAE=6.86  MSE=47.14  mean_pred=11.86mm
+  10mm -> MAE=4.86  MSE=25.78  mean_pred=14.86mm
+  15mm -> MAE=1.00  MSE=1.34  mean_pred=14.53mm
+  20mm -> MAE=4.97  MSE=27.28  mean_pred=15.03mm

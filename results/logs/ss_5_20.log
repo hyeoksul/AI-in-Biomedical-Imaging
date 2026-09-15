@@ -1,0 +1,31 @@
+[ss_5_20] epoch 1/30  train=0.8608
+[ss_5_20] epoch 2/30  train=0.6620  val=0.7020
+[ss_5_20] epoch 3/30  train=0.6444
+[ss_5_20] epoch 4/30  train=0.6348  val=0.7340
+[ss_5_20] epoch 5/30  train=0.6290
+[ss_5_20] epoch 6/30  train=0.6232  val=0.6783
+[ss_5_20] epoch 7/30  train=0.6208
+[ss_5_20] epoch 8/30  train=0.6178  val=0.7000
+[ss_5_20] epoch 9/30  train=0.6160
+[ss_5_20] epoch 10/30  train=0.6139  val=0.6670
+[ss_5_20] epoch 11/30  train=0.6116
+[ss_5_20] epoch 12/30  train=0.6090  val=0.6792
+[ss_5_20] epoch 13/30  train=0.6082
+[ss_5_20] epoch 14/30  train=0.6076  val=0.6895
+[ss_5_20] epoch 15/30  train=0.6054
+[ss_5_20] epoch 16/30  train=0.6032  val=0.6808
+[ss_5_20] epoch 17/30  train=0.6026
+[ss_5_20] epoch 18/30  train=0.6020  val=0.6864
+[ss_5_20] epoch 19/30  train=0.6009
+[ss_5_20] epoch 20/30  train=0.6010  val=0.7052
+[ss_5_20] epoch 21/30  train=0.5982
+[ss_5_20] epoch 22/30  train=0.5979  val=0.6727
+[ss_5_20] epoch 23/30  train=0.5974
+[ss_5_20] epoch 24/30  train=0.5959  val=0.7063
+[ss_5_20] epoch 25/30  train=0.5956
+[ss_5_20] epoch 26/30  train=0.5954  val=0.6749
+[ss_5_20] epoch 27/30  train=0.5947
+[ss_5_20] epoch 28/30  train=0.5937  val=0.6429
+[ss_5_20] epoch 29/30  train=0.5929
+[ss_5_20] epoch 30/30  train=0.5924  val=0.6571
+done. best val loss = 0.6429. saved to results\selfsupervised\ss_5_20

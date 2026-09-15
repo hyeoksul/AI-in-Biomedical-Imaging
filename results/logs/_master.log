@@ -1,0 +1,516 @@
+=== 21:08:41  START sup_baseline_e20_l1 ===
+[sup_baseline_e20_l1] epoch 1/20  train=0.9209  val=0.7371
+[sup_baseline_e20_l1] epoch 2/20  train=0.6365  val=0.6970
+[sup_baseline_e20_l1] epoch 3/20  train=0.6122  val=0.6842
+[sup_baseline_e20_l1] epoch 4/20  train=0.5968  val=0.7118
+[sup_baseline_e20_l1] epoch 5/20  train=0.5866  val=0.6627
+[sup_baseline_e20_l1] epoch 6/20  train=0.5780  val=0.6849
+[sup_baseline_e20_l1] epoch 7/20  train=0.5706  val=0.6520
+[sup_baseline_e20_l1] epoch 8/20  train=0.5657  val=0.6365
+[sup_baseline_e20_l1] epoch 9/20  train=0.5613  val=0.6871
+[sup_baseline_e20_l1] epoch 10/20  train=0.5575  val=0.6018
+[sup_baseline_e20_l1] epoch 11/20  train=0.5527  val=0.6345
+[sup_baseline_e20_l1] epoch 12/20  train=0.5493  val=0.5954
+[sup_baseline_e20_l1] epoch 13/20  train=0.5461  val=0.6151
+[sup_baseline_e20_l1] epoch 14/20  train=0.5425  val=0.6244
+[sup_baseline_e20_l1] epoch 15/20  train=0.5401  val=0.6022
+[sup_baseline_e20_l1] epoch 16/20  train=0.5365  val=0.6205
+[sup_baseline_e20_l1] epoch 17/20  train=0.5345  val=0.5967
+[sup_baseline_e20_l1] epoch 18/20  train=0.5315  val=0.5896
+[sup_baseline_e20_l1] epoch 19/20  train=0.5289  val=0.5957
+[sup_baseline_e20_l1] epoch 20/20  train=0.5265  val=0.5866
+done. best val loss = 0.5866. saved to results\supervised\sup_baseline_e20_l1
+=== 21:23:31  DONE  sup_baseline_e20_l1 ===
+=== 21:23:31  START sup_wide_e20_l1 ===
+=== 01:35:19  DONE  sup_wide_e20_l1 ===
+=== 01:35:19  START sup_deep_e20_l1 ===
+=== 01:35:45  DONE  sup_deep_e20_l1 ===
+=== 01:35:45  START sup_deep_e10_l1 ===
+=== 01:40:01  DONE  sup_deep_e10_l1 ===
+=== 01:40:01  START sup_deep_e50_l1 ===
+[sup_deep_e50_l1] epoch 1/50  train=0.8232  val=0.6827
+[sup_deep_e50_l1] epoch 2/50  train=0.5663  val=0.6556
+[sup_deep_e50_l1] epoch 3/50  train=0.5067  val=0.5686
+[sup_deep_e50_l1] epoch 4/50  train=0.4738  val=0.5272
+[sup_deep_e50_l1] epoch 5/50  train=0.4519  val=0.5091
+[sup_deep_e50_l1] epoch 6/50  train=0.4311  val=0.5609
+[sup_deep_e50_l1] epoch 7/50  train=0.4167  val=0.4743
+[sup_deep_e50_l1] epoch 8/50  train=0.4023  val=0.4355
+[sup_deep_e50_l1] epoch 9/50  train=0.3892  val=0.4646
+[sup_deep_e50_l1] epoch 10/50  train=0.3757  val=0.4393
+[sup_deep_e50_l1] epoch 11/50  train=0.3624  val=0.4115
+[sup_deep_e50_l1] epoch 12/50  train=0.3515  val=0.3909
+[sup_deep_e50_l1] epoch 13/50  train=0.3420  val=0.3708
+[sup_deep_e50_l1] epoch 14/50  train=0.3347  val=0.4056
+[sup_deep_e50_l1] epoch 15/50  train=0.3271  val=0.4481
+[sup_deep_e50_l1] epoch 16/50  train=0.3175  val=0.3629
+[sup_deep_e50_l1] epoch 17/50  train=0.3112  val=0.3978
+[sup_deep_e50_l1] epoch 18/50  train=0.3052  val=0.3618
+[sup_deep_e50_l1] epoch 19/50  train=0.3000  val=0.3517
+[sup_deep_e50_l1] epoch 20/50  train=0.2954  val=0.3361
+[sup_deep_e50_l1] epoch 21/50  train=0.2891  val=0.3519
+[sup_deep_e50_l1] epoch 22/50  train=0.2841  val=0.3757
+[sup_deep_e50_l1] epoch 23/50  train=0.2808  val=0.3396
+[sup_deep_e50_l1] epoch 24/50  train=0.2762  val=0.4062
+[sup_deep_e50_l1] epoch 25/50  train=0.2735  val=0.3363
+[sup_deep_e50_l1] epoch 26/50  train=0.2676  val=0.3264
+[sup_deep_e50_l1] epoch 27/50  train=0.2644  val=0.3209
+[sup_deep_e50_l1] epoch 28/50  train=0.2618  val=0.3313
+[sup_deep_e50_l1] epoch 29/50  train=0.2590  val=0.3482
+[sup_deep_e50_l1] epoch 30/50  train=0.2561  val=0.3405
+[sup_deep_e50_l1] epoch 31/50  train=0.2512  val=0.3457
+[sup_deep_e50_l1] epoch 32/50  train=0.2489  val=0.3132
+[sup_deep_e50_l1] epoch 33/50  train=0.2464  val=0.3109
+[sup_deep_e50_l1] epoch 34/50  train=0.2443  val=0.3176
+[sup_deep_e50_l1] epoch 35/50  train=0.2424  val=0.3121
+[sup_deep_e50_l1] epoch 36/50  train=0.2391  val=0.3437
+[sup_deep_e50_l1] epoch 37/50  train=0.2375  val=0.3087
+[sup_deep_e50_l1] epoch 38/50  train=0.2356  val=0.3538
+[sup_deep_e50_l1] epoch 39/50  train=0.2338  val=0.3008
+[sup_deep_e50_l1] epoch 40/50  train=0.2319  val=0.3259
+[sup_deep_e50_l1] epoch 41/50  train=0.2291  val=0.3042
+[sup_deep_e50_l1] epoch 42/50  train=0.2272  val=0.3193
+[sup_deep_e50_l1] epoch 43/50  train=0.2263  val=0.3169
+[sup_deep_e50_l1] epoch 44/50  train=0.2245  val=0.3023
+[sup_deep_e50_l1] epoch 45/50  train=0.2230  val=0.2856
+[sup_deep_e50_l1] epoch 46/50  train=0.2202  val=0.3086
+[sup_deep_e50_l1] epoch 47/50  train=0.2194  val=0.2969
+[sup_deep_e50_l1] epoch 48/50  train=0.2185  val=0.3134
+[sup_deep_e50_l1] epoch 49/50  train=0.2173  val=0.2919
+[sup_deep_e50_l1] epoch 50/50  train=0.2156  val=0.2932
+done. best val loss = 0.2856. saved to results\supervised\sup_deep_e50_l1
+=== 02:21:09  DONE  sup_deep_e50_l1 ===
+=== 02:21:09  START sup_deep_e20_l2 ===
+[sup_deep_e20_l2] epoch 1/20  train=1.2475  val=0.9642
+[sup_deep_e20_l2] epoch 2/20  train=0.4023  val=0.4907
+[sup_deep_e20_l2] epoch 3/20  train=0.3150  val=0.4123
+[sup_deep_e20_l2] epoch 4/20  train=0.2769  val=0.3310
+[sup_deep_e20_l2] epoch 5/20  train=0.2535  val=0.3253
+[sup_deep_e20_l2] epoch 6/20  train=0.2298  val=0.3010
+[sup_deep_e20_l2] epoch 7/20  train=0.2118  val=0.3770
+[sup_deep_e20_l2] epoch 8/20  train=0.1956  val=0.2185
+[sup_deep_e20_l2] epoch 9/20  train=0.1827  val=0.2979
+[sup_deep_e20_l2] epoch 10/20  train=0.1702  val=0.1995
+[sup_deep_e20_l2] epoch 11/20  train=0.1580  val=0.1896
+[sup_deep_e20_l2] epoch 12/20  train=0.1474  val=0.2201
+[sup_deep_e20_l2] epoch 13/20  train=0.1392  val=0.1890
+[sup_deep_e20_l2] epoch 14/20  train=0.1324  val=0.1868
+[sup_deep_e20_l2] epoch 15/20  train=0.1257  val=0.2320
+[sup_deep_e20_l2] epoch 16/20  train=0.1185  val=0.1643
+[sup_deep_e20_l2] epoch 17/20  train=0.1138  val=0.1590
+[sup_deep_e20_l2] epoch 18/20  train=0.1087  val=0.1614
+[sup_deep_e20_l2] epoch 19/20  train=0.1038  val=0.1746
+[sup_deep_e20_l2] epoch 20/20  train=0.1009  val=0.1690
+done. best val loss = 0.1590. saved to results\supervised\sup_deep_e20_l2
+=== 02:37:47  DONE  sup_deep_e20_l2 ===
+=== 02:37:47  START sup_deep_e20_l1ssim ===
+[sup_deep_e20_l1ssim] epoch 1/20  train=1.4108  val=1.2452
+[sup_deep_e20_l1ssim] epoch 2/20  train=1.0399  val=1.0629
+[sup_deep_e20_l1ssim] epoch 3/20  train=0.9395  val=1.2723
+[sup_deep_e20_l1ssim] epoch 4/20  train=0.8886  val=1.0749
+[sup_deep_e20_l1ssim] epoch 5/20  train=0.8402  val=0.8960
+[sup_deep_e20_l1ssim] epoch 6/20  train=0.7994  val=0.8846
+[sup_deep_e20_l1ssim] epoch 7/20  train=0.7649  val=0.8540
+[sup_deep_e20_l1ssim] epoch 8/20  train=0.7369  val=0.8391
+[sup_deep_e20_l1ssim] epoch 9/20  train=0.7123  val=0.8327
+[sup_deep_e20_l1ssim] epoch 10/20  train=0.6881  val=0.7514
+[sup_deep_e20_l1ssim] epoch 11/20  train=0.6638  val=0.7197
+[sup_deep_e20_l1ssim] epoch 12/20  train=0.6454  val=0.8104
+[sup_deep_e20_l1ssim] epoch 13/20  train=0.6317  val=0.7212
+[sup_deep_e20_l1ssim] epoch 14/20  train=0.6180  val=0.7432
+[sup_deep_e20_l1ssim] epoch 15/20  train=0.6025  val=0.8177
+[sup_deep_e20_l1ssim] epoch 16/20  train=0.5879  val=0.6785
+[sup_deep_e20_l1ssim] epoch 17/20  train=0.5788  val=0.6694
+[sup_deep_e20_l1ssim] epoch 18/20  train=0.5681  val=0.7051
+[sup_deep_e20_l1ssim] epoch 19/20  train=0.5584  val=0.6550
+[sup_deep_e20_l1ssim] epoch 20/20  train=0.5513  val=0.6363
+done. best val loss = 0.6363. saved to results\supervised\sup_deep_e20_l1ssim
+=== 02:54:14  DONE  sup_deep_e20_l1ssim ===
+=== 02:54:14  START eval_l1_5mm ===
+Traceback (most recent call last):
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+    main()
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+    net = load_model(args.checkpoint, args.arch, device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+    net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'
+=== 02:54:18  DONE  eval_l1_5mm ===
+=== 02:54:18  START eval_l1_10mm ===
+Traceback (most recent call last):
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+    main()
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+    net = load_model(args.checkpoint, args.arch, device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+    net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'
+=== 02:54:21  DONE  eval_l1_10mm ===
+=== 02:54:21  START eval_l1_15mm ===
+Traceback (most recent call last):
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+    main()
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+    net = load_model(args.checkpoint, args.arch, device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+    net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'
+=== 02:54:24  DONE  eval_l1_15mm ===
+=== 02:54:24  START eval_l1_20mm ===
+Traceback (most recent call last):
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+    main()
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+    net = load_model(args.checkpoint, args.arch, device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+    net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'
+=== 02:54:27  DONE  eval_l1_20mm ===
+=== 02:54:27  START eval_l2_5mm ===
+sup_deep_e20_l2__test_Distance5mm: PSNR=19.014  SSIM=0.079  (n=50)
+=== 02:54:35  DONE  eval_l2_5mm ===
+=== 02:54:35  START eval_l2_10mm ===
+sup_deep_e20_l2__test_Distance10mm: PSNR=20.847  SSIM=0.468  (n=50)
+=== 02:54:41  DONE  eval_l2_10mm ===
+=== 02:54:41  START eval_l2_15mm ===
+sup_deep_e20_l2__test_Distance15mm: PSNR=19.254  SSIM=0.171  (n=50)
+=== 02:54:47  DONE  eval_l2_15mm ===
+=== 02:54:47  START eval_l2_20mm ===
+sup_deep_e20_l2__test_Distance20mm: PSNR=18.942  SSIM=0.198  (n=50)
+=== 02:54:54  DONE  eval_l2_20mm ===
+=== 02:54:54  START eval_l1ssim_5mm ===
+sup_deep_e20_l1ssim__test_Distance5mm: PSNR=17.223  SSIM=-0.029  (n=50)
+=== 02:54:59  DONE  eval_l1ssim_5mm ===
+=== 02:54:59  START eval_l1ssim_10mm ===
+sup_deep_e20_l1ssim__test_Distance10mm: PSNR=22.519  SSIM=0.696  (n=50)
+=== 02:55:03  DONE  eval_l1ssim_10mm ===
+=== 02:55:03  START eval_l1ssim_15mm ===
+sup_deep_e20_l1ssim__test_Distance15mm: PSNR=17.467  SSIM=0.025  (n=50)
+=== 02:55:08  DONE  eval_l1ssim_15mm ===
+=== 02:55:08  START eval_l1ssim_20mm ===
+sup_deep_e20_l1ssim__test_Distance20mm: PSNR=17.442  SSIM=0.160  (n=50)
+=== 02:55:13  DONE  eval_l1ssim_20mm ===
+=== 02:55:13  START eval_sup_baseline_e20_l1_10mm ===
+sup_baseline_e20_l1__test_Distance10mm: PSNR=20.616  SSIM=0.391  (n=50)
+=== 02:55:17  DONE  eval_sup_baseline_e20_l1_10mm ===
+=== 02:55:17  START eval_sup_wide_e20_l1_10mm ===
+sup_wide_e20_l1__test_Distance10mm: PSNR=20.620  SSIM=0.396  (n=50)
+=== 02:55:22  DONE  eval_sup_wide_e20_l1_10mm ===
+=== 02:55:22  START eval_sup_deep_e10_l1_10mm ===
+sup_deep_e10_l1__test_Distance10mm: PSNR=20.255  SSIM=0.389  (n=50)
+=== 02:55:27  DONE  eval_sup_deep_e10_l1_10mm ===
+=== 02:55:27  START eval_sup_deep_e50_l1_10mm ===
+sup_deep_e50_l1__test_Distance10mm: PSNR=21.796  SSIM=0.561  (n=50)
+=== 02:55:32  DONE  eval_sup_deep_e50_l1_10mm ===
+=== 02:55:32  START ss_5_5 ===
+[ss_5_5] epoch 1/30  train=0.8033
+[ss_5_5] epoch 2/30  train=0.6317  val=0.8384
+[ss_5_5] epoch 3/30  train=0.6047
+[ss_5_5] epoch 4/30  train=0.5889  val=0.7755
+[ss_5_5] epoch 5/30  train=0.5781
+[ss_5_5] epoch 6/30  train=0.5663  val=0.7862
+[ss_5_5] epoch 7/30  train=0.5576
+[ss_5_5] epoch 8/30  train=0.5499  val=0.7824
+[ss_5_5] epoch 9/30  train=0.5446
+[ss_5_5] epoch 10/30  train=0.5390  val=0.8074
+[ss_5_5] epoch 11/30  train=0.5331
+[ss_5_5] epoch 12/30  train=0.5292  val=0.7859
+[ss_5_5] epoch 13/30  train=0.5258
+[ss_5_5] epoch 14/30  train=0.5210  val=0.7585
+[ss_5_5] epoch 15/30  train=0.5179
+[ss_5_5] epoch 16/30  train=0.5147  val=0.7784
+[ss_5_5] epoch 17/30  train=0.5118
+[ss_5_5] epoch 18/30  train=0.5078  val=0.8200
+[ss_5_5] epoch 19/30  train=0.5059
+[ss_5_5] epoch 20/30  train=0.5033  val=0.8371
+[ss_5_5] epoch 21/30  train=0.5003
+[ss_5_5] epoch 22/30  train=0.4978  val=0.7807
+[ss_5_5] epoch 23/30  train=0.4950
+[ss_5_5] epoch 24/30  train=0.4935  val=0.7805
+[ss_5_5] epoch 25/30  train=0.4921
+[ss_5_5] epoch 26/30  train=0.4888  val=0.7925
+[ss_5_5] epoch 27/30  train=0.4869
+[ss_5_5] epoch 28/30  train=0.4850  val=0.7813
+[ss_5_5] epoch 29/30  train=0.4833
+[ss_5_5] epoch 30/30  train=0.4808  val=0.7788
+done. best val loss = 0.7585. saved to results\selfsupervised\ss_5_5
+=== 03:12:00  DONE  ss_5_5 ===
+=== 03:12:00  START ss_10_10 ===
+[ss_10_10] epoch 1/30  train=0.8587
+[ss_10_10] epoch 2/30  train=0.6474  val=0.7083
+[ss_10_10] epoch 3/30  train=0.6228
+[ss_10_10] epoch 4/30  train=0.6097  val=0.6591
+[ss_10_10] epoch 5/30  train=0.5998
+[ss_10_10] epoch 6/30  train=0.5911  val=0.6410
+[ss_10_10] epoch 7/30  train=0.5847
+[ss_10_10] epoch 8/30  train=0.5803  val=0.6181
+[ss_10_10] epoch 9/30  train=0.5765
+[ss_10_10] epoch 10/30  train=0.5722  val=0.6190
+[ss_10_10] epoch 11/30  train=0.5675
+[ss_10_10] epoch 12/30  train=0.5646  val=0.6593
+[ss_10_10] epoch 13/30  train=0.5615
+[ss_10_10] epoch 14/30  train=0.5589  val=0.6244
+[ss_10_10] epoch 15/30  train=0.5561
+[ss_10_10] epoch 16/30  train=0.5529  val=0.6081
+[ss_10_10] epoch 17/30  train=0.5517
+[ss_10_10] epoch 18/30  train=0.5489  val=0.5873
+[ss_10_10] epoch 19/30  train=0.5477
+[ss_10_10] epoch 20/30  train=0.5447  val=0.6005
+[ss_10_10] epoch 21/30  train=0.5417
+[ss_10_10] epoch 22/30  train=0.5405  val=0.6069
+[ss_10_10] epoch 23/30  train=0.5385
+[ss_10_10] epoch 24/30  train=0.5376  val=0.6379
+[ss_10_10] epoch 25/30  train=0.5357
+[ss_10_10] epoch 26/30  train=0.5336  val=0.6028
+[ss_10_10] epoch 27/30  train=0.5316
+[ss_10_10] epoch 28/30  train=0.5302  val=0.6097
+[ss_10_10] epoch 29/30  train=0.5291
+[ss_10_10] epoch 30/30  train=0.5278  val=0.6077
+done. best val loss = 0.5873. saved to results\selfsupervised\ss_10_10
+=== 03:28:41  DONE  ss_10_10 ===
+=== 03:28:41  START ss_15_15 ===
+[ss_15_15] epoch 1/30  train=0.8087
+[ss_15_15] epoch 2/30  train=0.6508  val=0.8091
+[ss_15_15] epoch 3/30  train=0.6306
+[ss_15_15] epoch 4/30  train=0.6206  val=0.7822
+[ss_15_15] epoch 5/30  train=0.6144
+[ss_15_15] epoch 6/30  train=0.6083  val=0.7491
+[ss_15_15] epoch 7/30  train=0.6041
+[ss_15_15] epoch 8/30  train=0.5999  val=0.7120
+[ss_15_15] epoch 9/30  train=0.5973
+[ss_15_15] epoch 10/30  train=0.5942  val=0.7586
+[ss_15_15] epoch 11/30  train=0.5910
+[ss_15_15] epoch 12/30  train=0.5882  val=0.7976
+[ss_15_15] epoch 13/30  train=0.5853
+[ss_15_15] epoch 14/30  train=0.5832  val=0.7513
+[ss_15_15] epoch 15/30  train=0.5815
+[ss_15_15] epoch 16/30  train=0.5778  val=0.7494
+[ss_15_15] epoch 17/30  train=0.5765
+[ss_15_15] epoch 18/30  train=0.5759  val=0.7147
+[ss_15_15] epoch 19/30  train=0.5730
+[ss_15_15] epoch 20/30  train=0.5715  val=0.7129
+[ss_15_15] epoch 21/30  train=0.5692
+[ss_15_15] epoch 22/30  train=0.5679  val=0.7369
+[ss_15_15] epoch 23/30  train=0.5665
+[ss_15_15] epoch 24/30  train=0.5647  val=0.6894
+[ss_15_15] epoch 25/30  train=0.5630
+[ss_15_15] epoch 26/30  train=0.5615  val=0.7448
+[ss_15_15] epoch 27/30  train=0.5598
+[ss_15_15] epoch 28/30  train=0.5584  val=0.7197
+[ss_15_15] epoch 29/30  train=0.5571
+[ss_15_15] epoch 30/30  train=0.5564  val=0.7751
+done. best val loss = 0.6894. saved to results\selfsupervised\ss_15_15
+=== 03:45:06  DONE  ss_15_15 ===
+=== 03:45:06  START ss_20_20 ===
+[ss_20_20] epoch 1/30  train=0.8328
+[ss_20_20] epoch 2/30  train=0.6658  val=0.8172
+[ss_20_20] epoch 3/30  train=0.6490
+[ss_20_20] epoch 4/30  train=0.6408  val=0.8944
+[ss_20_20] epoch 5/30  train=0.6343
+[ss_20_20] epoch 6/30  train=0.6280  val=0.8090
+[ss_20_20] epoch 7/30  train=0.6231
+[ss_20_20] epoch 8/30  train=0.6194  val=0.8237
+[ss_20_20] epoch 9/30  train=0.6150
+[ss_20_20] epoch 10/30  train=0.6132  val=0.8624
+[ss_20_20] epoch 11/30  train=0.6094
+[ss_20_20] epoch 12/30  train=0.6066  val=0.8539
+[ss_20_20] epoch 13/30  train=0.6048
+[ss_20_20] epoch 14/30  train=0.6034  val=0.8666
+[ss_20_20] epoch 15/30  train=0.6016
+[ss_20_20] epoch 16/30  train=0.5988  val=0.8430
+[ss_20_20] epoch 17/30  train=0.5976
+[ss_20_20] epoch 18/30  train=0.5962  val=0.9004
+[ss_20_20] epoch 19/30  train=0.5947
+[ss_20_20] epoch 20/30  train=0.5931  val=0.8648
+[ss_20_20] epoch 21/30  train=0.5920
+[ss_20_20] epoch 22/30  train=0.5898  val=0.8260
+[ss_20_20] epoch 23/30  train=0.5890
+[ss_20_20] epoch 24/30  train=0.5876  val=0.8371
+[ss_20_20] epoch 25/30  train=0.5864
+[ss_20_20] epoch 26/30  train=0.5841  val=0.9105
+[ss_20_20] epoch 27/30  train=0.5836
+[ss_20_20] epoch 28/30  train=0.5823  val=0.8430
+[ss_20_20] epoch 29/30  train=0.5810
+[ss_20_20] epoch 30/30  train=0.5806  val=0.8641
+done. best val loss = 0.8090. saved to results\selfsupervised\ss_20_20
+=== 04:01:30  DONE  ss_20_20 ===
+=== 04:01:30  START ss_5_20 ===
+[ss_5_20] epoch 1/30  train=0.8608
+[ss_5_20] epoch 2/30  train=0.6620  val=0.7020
+[ss_5_20] epoch 3/30  train=0.6444
+[ss_5_20] epoch 4/30  train=0.6348  val=0.7340
+[ss_5_20] epoch 5/30  train=0.6290
+[ss_5_20] epoch 6/30  train=0.6232  val=0.6783
+[ss_5_20] epoch 7/30  train=0.6208
+[ss_5_20] epoch 8/30  train=0.6178  val=0.7000
+[ss_5_20] epoch 9/30  train=0.6160
+[ss_5_20] epoch 10/30  train=0.6139  val=0.6670
+[ss_5_20] epoch 11/30  train=0.6116
+[ss_5_20] epoch 12/30  train=0.6090  val=0.6792
+[ss_5_20] epoch 13/30  train=0.6082
+[ss_5_20] epoch 14/30  train=0.6076  val=0.6895
+[ss_5_20] epoch 15/30  train=0.6054
+[ss_5_20] epoch 16/30  train=0.6032  val=0.6808
+[ss_5_20] epoch 17/30  train=0.6026
+[ss_5_20] epoch 18/30  train=0.6020  val=0.6864
+[ss_5_20] epoch 19/30  train=0.6009
+[ss_5_20] epoch 20/30  train=0.6010  val=0.7052
+[ss_5_20] epoch 21/30  train=0.5982
+[ss_5_20] epoch 22/30  train=0.5979  val=0.6727
+[ss_5_20] epoch 23/30  train=0.5974
+[ss_5_20] epoch 24/30  train=0.5959  val=0.7063
+[ss_5_20] epoch 25/30  train=0.5956
+[ss_5_20] epoch 26/30  train=0.5954  val=0.6749
+[ss_5_20] epoch 27/30  train=0.5947
+[ss_5_20] epoch 28/30  train=0.5937  val=0.6429
+[ss_5_20] epoch 29/30  train=0.5929
+[ss_5_20] epoch 30/30  train=0.5924  val=0.6571
+done. best val loss = 0.6429. saved to results\selfsupervised\ss_5_20
+=== 04:17:57  DONE  ss_5_20 ===
+=== 04:17:57  START eval_ss_5_5_5mm ===
+ss_5_5__test_Distance5mm: PSNR=21.237  SSIM=0.605  (n=50)
+=== 04:18:20  DONE  eval_ss_5_5_5mm ===
+=== 04:18:20  START eval_ss_5_5_10mm ===
+ss_5_5__test_Distance10mm: PSNR=17.544  SSIM=0.094  (n=50)
+=== 04:18:26  DONE  eval_ss_5_5_10mm ===
+=== 04:18:26  START eval_ss_5_5_15mm ===
+ss_5_5__test_Distance15mm: PSNR=17.860  SSIM=0.195  (n=50)
+=== 04:18:31  DONE  eval_ss_5_5_15mm ===
+=== 04:18:31  START eval_ss_5_5_20mm ===
+ss_5_5__test_Distance20mm: PSNR=17.614  SSIM=0.217  (n=50)
+=== 04:18:37  DONE  eval_ss_5_5_20mm ===
+=== 04:18:37  START eval_ss_10_10_5mm ===
+ss_10_10__test_Distance5mm: PSNR=19.352  SSIM=0.103  (n=50)
+=== 04:18:41  DONE  eval_ss_10_10_5mm ===
+=== 04:18:41  START eval_ss_10_10_10mm ===
+ss_10_10__test_Distance10mm: PSNR=20.646  SSIM=0.385  (n=50)
+=== 04:18:46  DONE  eval_ss_10_10_10mm ===
+=== 04:18:46  START eval_ss_10_10_15mm ===
+ss_10_10__test_Distance15mm: PSNR=19.486  SSIM=0.225  (n=50)
+=== 04:18:51  DONE  eval_ss_10_10_15mm ===
+=== 04:18:51  START eval_ss_10_10_20mm ===
+ss_10_10__test_Distance20mm: PSNR=18.987  SSIM=0.209  (n=50)
+=== 04:18:55  DONE  eval_ss_10_10_20mm ===
+=== 04:18:55  START eval_ss_15_15_5mm ===
+ss_15_15__test_Distance5mm: PSNR=19.868  SSIM=0.256  (n=50)
+=== 04:19:00  DONE  eval_ss_15_15_5mm ===
+=== 04:19:00  START eval_ss_15_15_10mm ===
+ss_15_15__test_Distance10mm: PSNR=20.202  SSIM=0.276  (n=50)
+=== 04:19:04  DONE  eval_ss_15_15_10mm ===
+=== 04:19:04  START eval_ss_15_15_15mm ===
+ss_15_15__test_Distance15mm: PSNR=20.290  SSIM=0.284  (n=50)
+=== 04:19:09  DONE  eval_ss_15_15_15mm ===
+=== 04:19:09  START eval_ss_15_15_20mm ===
+ss_15_15__test_Distance20mm: PSNR=19.960  SSIM=0.265  (n=50)
+=== 04:19:14  DONE  eval_ss_15_15_20mm ===
+=== 04:19:14  START eval_ss_20_20_5mm ===
+ss_20_20__test_Distance5mm: PSNR=20.280  SSIM=0.320  (n=50)
+=== 04:19:18  DONE  eval_ss_20_20_5mm ===
+=== 04:19:18  START eval_ss_20_20_10mm ===
+ss_20_20__test_Distance10mm: PSNR=19.874  SSIM=0.234  (n=50)
+=== 04:19:23  DONE  eval_ss_20_20_10mm ===
+=== 04:19:23  START eval_ss_20_20_15mm ===
+ss_20_20__test_Distance15mm: PSNR=20.070  SSIM=0.266  (n=50)
+=== 04:19:27  DONE  eval_ss_20_20_15mm ===
+=== 04:19:27  START eval_ss_20_20_20mm ===
+ss_20_20__test_Distance20mm: PSNR=19.950  SSIM=0.273  (n=50)
+=== 04:19:31  DONE  eval_ss_20_20_20mm ===
+=== 04:19:31  START eval_ss_5_20_5mm ===
+ss_5_20__test_Distance5mm: PSNR=20.146  SSIM=0.285  (n=50)
+=== 04:19:36  DONE  eval_ss_5_20_5mm ===
+=== 04:19:36  START eval_ss_5_20_10mm ===
+ss_5_20__test_Distance10mm: PSNR=20.388  SSIM=0.306  (n=50)
+=== 04:19:41  DONE  eval_ss_5_20_10mm ===
+=== 04:19:41  START eval_ss_5_20_15mm ===
+ss_5_20__test_Distance15mm: PSNR=20.176  SSIM=0.272  (n=50)
+=== 04:19:45  DONE  eval_ss_5_20_15mm ===
+=== 04:19:45  START eval_ss_5_20_20mm ===
+ss_5_20__test_Distance20mm: PSNR=19.904  SSIM=0.259  (n=50)
+=== 04:19:49  DONE  eval_ss_5_20_20mm ===
+=== 04:19:50  START depth_5_20 ===
+[depth_5_20] epoch 1/30  train_mse=66.9108
+[depth_5_20] epoch 2/30  train_mse=22.0525
+[depth_5_20] epoch 3/30  train_mse=20.1048
+[depth_5_20] epoch 4/30  train_mse=19.8607
+[depth_5_20] epoch 5/30  train_mse=18.4702
+[depth_5_20] epoch 6/30  train_mse=19.2227
+[depth_5_20] epoch 7/30  train_mse=19.0730
+[depth_5_20] epoch 8/30  train_mse=18.0445
+[depth_5_20] epoch 9/30  train_mse=18.3117
+[depth_5_20] epoch 10/30  train_mse=17.5338
+[depth_5_20] epoch 11/30  train_mse=18.0368
+[depth_5_20] epoch 12/30  train_mse=17.2051
+[depth_5_20] epoch 13/30  train_mse=17.8499
+[depth_5_20] epoch 14/30  train_mse=16.2863
+[depth_5_20] epoch 15/30  train_mse=17.5633
+[depth_5_20] epoch 16/30  train_mse=17.7844
+[depth_5_20] epoch 17/30  train_mse=17.7644
+[depth_5_20] epoch 18/30  train_mse=16.2756
+[depth_5_20] epoch 19/30  train_mse=16.9640
+[depth_5_20] epoch 20/30  train_mse=16.9942
+[depth_5_20] epoch 21/30  train_mse=16.3694
+[depth_5_20] epoch 22/30  train_mse=16.8458
+[depth_5_20] epoch 23/30  train_mse=15.8909
+[depth_5_20] epoch 24/30  train_mse=15.7384
+[depth_5_20] epoch 25/30  train_mse=16.0308
+[depth_5_20] epoch 26/30  train_mse=16.5581
+[depth_5_20] epoch 27/30  train_mse=16.1933
+[depth_5_20] epoch 28/30  train_mse=15.5282
+[depth_5_20] epoch 29/30  train_mse=15.3957
+[depth_5_20] epoch 30/30  train_mse=15.8074
+  5mm -> MAE=6.86  MSE=47.14  mean_pred=11.86mm
+  10mm -> MAE=4.86  MSE=25.78  mean_pred=14.86mm
+  15mm -> MAE=1.00  MSE=1.34  mean_pred=14.53mm
+  20mm -> MAE=4.97  MSE=27.28  mean_pred=15.03mm
+=== 04:25:49  DONE  depth_5_20 ===
+=== 04:25:49  START ood_comparison ===
+supervised @ 2.0mm: PSNR=17.470  SSIM=0.205
+selfsupervised @ 2.0mm: PSNR=18.708  SSIM=0.211
+supervised @ 25.0mm: PSNR=17.377  SSIM=0.157
+selfsupervised @ 25.0mm: PSNR=19.832  SSIM=0.260
+=== 04:25:58  DONE  ood_comparison ===
+=== ALL EXPERIMENTS DONE: Tue Sep 15 04:25:58     2026 ===
