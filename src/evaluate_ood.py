@@ -62,13 +62,24 @@ def evaluate_at_distance(net, loader, distance_mm, device):
 
 
 def save_figure(sample, out_path, title):
+    """Same colormap convention as evaluate.py: viridis for intensity-like
+    panels, twilight (cyclic) for phase."""
     holo, amp_gt, amp_pred, pha_gt, pha_pred = sample
+    pha_abs_max = max(pha_gt.abs().max().item(), pha_pred.abs().max().item(), 1e-6)
+
     fig, axes = plt.subplots(2, 3, figsize=(9, 6))
-    axes[0, 0].imshow(holo, cmap="gray"); axes[0, 0].set_title("Synthesized Hologram")
-    axes[0, 1].imshow(amp_gt, cmap="gray"); axes[0, 1].set_title("GT Amplitude")
-    axes[0, 2].imshow(amp_pred, cmap="gray"); axes[0, 2].set_title("Reconstructed Amplitude")
-    axes[1, 1].imshow(pha_gt, cmap="gray"); axes[1, 1].set_title("GT Phase")
-    axes[1, 2].imshow(pha_pred, cmap="gray"); axes[1, 2].set_title("Reconstructed Phase")
+    panels = [
+        (axes[0, 0], holo, "Synthesized Hologram", "viridis", None),
+        (axes[0, 1], amp_gt, "GT Amplitude", "viridis", None),
+        (axes[0, 2], amp_pred, "Reconstructed Amplitude", "viridis", None),
+        (axes[1, 1], pha_gt, "GT Phase", "twilight", pha_abs_max),
+        (axes[1, 2], pha_pred, "Reconstructed Phase", "twilight", pha_abs_max),
+    ]
+    for ax, img, panel_title, cmap, sym_range in panels:
+        kwargs = {"vmin": -sym_range, "vmax": sym_range} if sym_range else {}
+        im = ax.imshow(img, cmap=cmap, **kwargs)
+        ax.set_title(panel_title)
+        fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
     axes[1, 0].axis("off")
     for ax in axes.flat:
         ax.set_xticks([]); ax.set_yticks([])
