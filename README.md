@@ -17,6 +17,13 @@ and at two distances *outside even that range* (2mm, 25mm), it beats the
 supervised model on both PSNR and SSIM. Robustness and peak accuracy traded
 directly against each other.
 
+> This project is a ground-up redo of a graduate course assignment I
+> completed and submitted in May 2025 (KAIST, "AI in Biomedical Imaging").
+> My original report is kept as-is at
+> [`original_submission/original_report.pdf`](original_submission/original_report.pdf)
+> for reference. Everything else in this repository — code, experiments,
+> writeup — was rebuilt independently for this project.
+
 ## Why this problem is hard
 
 A camera can only measure light *intensity*; the *phase* of the field —
@@ -197,6 +204,7 @@ globally.
 
 ```
 holographic-reconstruction/
+  original_submission/        my original KAIST course submission (May 2025), for reference
   docs/background.md          background on holography, the phase problem, and the ASM forward model
   src/
     datasets.py                paired and field-only .mat dataset loaders
