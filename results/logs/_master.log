@@ -128,84 +128,84 @@ done. best val loss = 0.6363. saved to results\supervised\sup_deep_e20_l1ssim
 === 02:54:14  DONE  sup_deep_e20_l1ssim ===
 === 02:54:14  START eval_l1_5mm ===
 Traceback (most recent call last):
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+  File "<repo>\src\evaluate.py", line 99, in <module>
     main()
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+  File "<repo>\src\evaluate.py", line 82, in main
     net = load_model(args.checkpoint, args.arch, device)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+  File "<repo>\src\evaluate.py", line 26, in load_model
     net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 1319, in load
     with _open_file_like(f, "rb") as opened_file:
          ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
     return _open_file(name_or_buffer, mode)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 640, in __init__
     super().__init__(open(name, mode))
                      ^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'
 === 02:54:18  DONE  eval_l1_5mm ===
 === 02:54:18  START eval_l1_10mm ===
 Traceback (most recent call last):
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+  File "<repo>\src\evaluate.py", line 99, in <module>
     main()
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+  File "<repo>\src\evaluate.py", line 82, in main
     net = load_model(args.checkpoint, args.arch, device)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+  File "<repo>\src\evaluate.py", line 26, in load_model
     net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 1319, in load
     with _open_file_like(f, "rb") as opened_file:
          ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
     return _open_file(name_or_buffer, mode)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 640, in __init__
     super().__init__(open(name, mode))
                      ^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'
 === 02:54:21  DONE  eval_l1_10mm ===
 === 02:54:21  START eval_l1_15mm ===
 Traceback (most recent call last):
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+  File "<repo>\src\evaluate.py", line 99, in <module>
     main()
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+  File "<repo>\src\evaluate.py", line 82, in main
     net = load_model(args.checkpoint, args.arch, device)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+  File "<repo>\src\evaluate.py", line 26, in load_model
     net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 1319, in load
     with _open_file_like(f, "rb") as opened_file:
          ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
     return _open_file(name_or_buffer, mode)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 640, in __init__
     super().__init__(open(name, mode))
                      ^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'
 === 02:54:24  DONE  eval_l1_15mm ===
 === 02:54:24  START eval_l1_20mm ===
 Traceback (most recent call last):
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 99, in <module>
+  File "<repo>\src\evaluate.py", line 99, in <module>
     main()
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 82, in main
+  File "<repo>\src\evaluate.py", line 82, in main
     net = load_model(args.checkpoint, args.arch, device)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\holographic-reconstruction\src\evaluate.py", line 26, in load_model
+  File "<repo>\src\evaluate.py", line 26, in load_model
     net.load_state_dict(torch.load(checkpoint, map_location=device, weights_only=True))
                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 1319, in load
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 1319, in load
     with _open_file_like(f, "rb") as opened_file:
          ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 659, in _open_file_like
     return _open_file(name_or_buffer, mode)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Graduate Study\AI in biomed imaging\Bio_image\MicroDegree\holograph_env\Lib\site-packages\torch\serialization.py", line 640, in __init__
+  File "<venv>\Lib\site-packages\torch\serialization.py", line 640, in __init__
     super().__init__(open(name, mode))
                      ^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'results/supervised/sup_deep_e20_l1/best.pth'

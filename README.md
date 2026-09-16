@@ -5,6 +5,9 @@ hologram, for label-free imaging of tissue histology slides — comparing a
 supervised approach against a physics-informed self-supervised approach that
 uses no real hologram data at all.
 
+![sample reconstruction](results/figures/sup_deep_e20_l1ssim__test_Distance10mm.png)
+*Input hologram (intensity only) -> reconstructed amplitude and phase, vs. ground truth.*
+
 **Headline result**: a supervised U-Net trained at a single distance (10mm)
 reaches the best in-distribution quality (SSIM 0.70 with an L1+SSIM loss) but
 its SSIM collapses to near-zero (-0.03 to 0.19) at distances just 5mm away.
@@ -81,10 +84,8 @@ Monotonic improvement, no overfitting yet visible even at 50 epochs on this
 
 Adding a structural-similarity term to the loss gave the single largest jump
 in reconstruction quality of any change in this whole project — but see 1-4:
-this is also the model that generalizes worst.
-
-![best model reconstruction at 10mm](results/figures/sup_deep_e20_l1ssim__test_Distance10mm.png)
-*Best in-distribution model (deep, L1+SSIM, 20 epochs) reconstructing a held-out 10mm test sample.*
+this is also the model that generalizes worst. (Sample reconstruction from
+this model is the hero image at the top of this README.)
 
 ### 1-4: Generalization to unseen distances (5 / 15 / 20mm)
 
